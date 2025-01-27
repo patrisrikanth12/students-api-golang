@@ -1,7 +1,10 @@
-package main  
+package main
 
-import "fmt"
+import (
+	"github.com/patrisrikanth12/students-api-golang/internal/config"
+)
 
 func main() {
-	fmt.Println("Welcome to students API")
+	cfg := config.MustLoad()
+	
 }
